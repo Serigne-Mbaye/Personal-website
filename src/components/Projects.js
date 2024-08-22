@@ -35,7 +35,7 @@ class Projects extends React.Component {
         desc:
           "A web application that provides basic NBA information and player statistics for the regular season.",
         techStack: "Javascript, HTML, CSS",
-        link: "https://github.com/Serigne-Mbaye/Scientific-Visualization-Films",
+        link: "https://github.com/AlessandroMangili/NBA",
         image: "/assets/NBA.jpg"
       },
       
