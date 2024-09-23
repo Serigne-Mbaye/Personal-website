@@ -41,12 +41,25 @@ class Projects extends React.Component {
       
     };
     const projects = {
+      "Scientific Visualization": {
+        desc:
+          "Interactive visualizations of film data",
+        techStack: "Jupiter Notebook",
+        link: "https://github.com/Serigne-Mbaye/Scientific-Visualization-Films",
+      },
+      "NBA": {
+        desc:
+          "Web application that provides basic NBA statistics",
+        techStack: "Javascript, HTML, CSS",
+        link: "https://github.com/AlessandroMangili/NBA",
+      },
       "Fallen": {
         desc:
           "A simple free fall ball game.",
         techStack: "JAVA",
         link: "https://github.com/Serigne-Mbaye/Fallen",
       },
+      
       
     };
 
