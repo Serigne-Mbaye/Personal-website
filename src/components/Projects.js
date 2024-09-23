@@ -60,7 +60,6 @@ class Projects extends React.Component {
         link: "https://github.com/Serigne-Mbaye/Fallen",
       },
       
-      
     };
 
     return (
