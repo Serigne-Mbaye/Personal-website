@@ -18,28 +18,37 @@ class About extends React.Component {
   }
   render() {
     const one = (
-      <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
-      </p>
+      <><p>
+        I am currently a <b>cybersecurity</b> student at
+        <a href="https://www.unimi.it/it"> University of Milan</a>, I acquired solid theoretical and practical skills in the IT field that allowed me to develop analytical and problem solving skills, as well as a strong aptitude for teamwork and time management.
+      </p><p>
+          I am a native speaker of <b>Italian</b> and <b>Wolof</b>, and I have a <b>B2 level</b> proficiency in <b>English</b>.
+        </p></>
     );
+    
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Outside of studying i'm interested in developing a project involving younger generation into 
+        discovering 
+        african cinema, <a href="https://www.instagram.com/djieggo/">  Djieggo</a> was created to 
+         incite inspiration in the youth in hopes that they are strongly rooted to the distinctive 
+         reality that is Africa. Hence in equal measure at <a href="https://www.instagram.com/djieggo/">  Djieggo</a> also hold space for healing 
+         through art and self-empowerment.
       </p>
     );
 
     const tech_stack = [
-      "Typescript",
+      "KQL",
+      "C",
       "Python",
-      "React.js",
       "Java",
-      "Javascript ES6+",
-      "C#"
+      "Javascript",
+      "PHP",
+      "HTML",
+      "CSS",
+      "SQL",
+      "GIT",
+
     ];
 
     return (
@@ -64,7 +73,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Serigne" src={"/assets/me.jpg"} />
             </div>
           </div>
         </FadeInSection>

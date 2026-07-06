@@ -4,6 +4,7 @@ import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
+import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import FadeInSection from "./FadeInSection";
 import FractalTree from "./FractalTree";
 
@@ -29,24 +30,29 @@ class Intro extends React.Component {
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}
-            <span className="intro-name">{"gazi"}</span>
+            <span className="intro-name">{"Serigne"}</span>
             {" here."}
           </span>
         </Typist>
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a software engineer from Toronto, Canada. I'm fascinated by
-            large-scale, high-impact products and contributed to major feature launches in
-            industry-leading services as well as apps that have 100M+ installs.
+          I'm a cybersecurity student in Milan.
           </div>
           <a
-            href="mailto:gazijarin@gmail.com"
+            href="mailto:serigne.mby@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
-            {" Say hi!"}
+            {" Contact me"}
           </a>
+          <a className="intro-contact" href="/assets/CV_SerigneMbayeENG.pdf" download="CV_SerigneMbayeENG.pdf">
+          <PictureAsPdfIcon></PictureAsPdfIcon>
+          {" C.V."}
+          </a>
+
+          
+
         </FadeInSection>
       </div>
     );

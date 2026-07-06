@@ -22,92 +22,38 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Scientific Visualization": {
+        title: "Scientific Visualization",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "A project with interactive visualizations of film data, integrating information about films, actors, and popularity trends. These visualizations are accessible through a dynamic web interface.",
+        techStack: "Jupiter Notebook",
+        link: "https://github.com/Serigne-Mbaye/Scientific-Visualization-Films",
+        image: "/assets/SciVis.png"
       },
-      Truth: {
-        title: "truth",
+      "NBA": {
+        title: "NBA",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+          "A web application that provides basic NBA information and player statistics for the regular season.",
+        techStack: "Javascript, HTML, CSS",
+        link: "https://github.com/Serigne-Mbaye/Scientific-Visualization-Films",
+        image: "/assets/NBA.jpg"
       },
-      "Tall Tales": {
-        title: "tall tales",
-        desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
-      },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
-      }
+      
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Fallen": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "A simple free fall ball game.",
+        techStack: "JAVA",
+        link: "https://github.com/Serigne-Mbaye/Fallen",
       },
-      "Adam A.I.": {
-        desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
-      },
-      "Distributed Logging and Monitoring System": {
-        desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
-      },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
-      }
+      
     };
 
     return (
       <div id="projects">
         <div className="section-header ">
-          <span className="section-title">/ pet projects</span>
+          <span className="section-title">/ projects</span>
         </div>
         <Carousel>
           {Object.keys(spotlightProjects).map((key, i) => (

@@ -82,53 +82,55 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+    "Avanade": {
+      jobTitle: "Sr Associate in IAM and Data Protection @",
+      duration: "OCT 2025 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
+    "Led the design and deployment of Microsoft Purview DLP solutions.",
+    "Acted as a trusted advisor for data governance and compliance requirements.",
+    "Managed end-to-end Data Protection programs, from architecture to production rollout.",
+    "Implemented advanced Purview features like Endpoint DLP, IRM, and EDM.",
+    "Enforced security controls to prevent data exfiltration and unauthorized sharing."]
+    },
+    "Avanade": {
+      jobTitle: "Cyber Defense analyst Cloud & Application Security @",
+      duration: "MAR 2025 - SEP 2025",
+      desc: [
+    "Engineered Zero Trust security architectures using Azure AD and Microsoft Defender XDR.",
+    "Configured Conditional Access policies and MFA to enforce least-privilege access.",
+    "Administered Microsoft Intune for comprehensive endpoint management and compliance.",
+    "Conducted threat detection and incident response via Microsoft Defender for Identity.",
+    "Deployed data protection strategies to ensure compliance with regulatory standards."
+  ]
+    },
+    "Avanade": {
+      jobTitle: "Intern - Junior Cyber Security Analyst @",
+      duration: "NOV 2024 - MAR 2025",
+      desc: [
+    "Supported SOC operations and alert triage using Microsoft Defender XDR.",
+    "Built and tuned SIEM use cases and KQL analytics in Microsoft Sentinel.",
+    "Implemented SOAR playbooks for automated incident response.",
+    "Configured Intune MDM/MAM baselines and assisted in Entra ID IAM hardening.",
+    "Wrote PowerShell automations and mapped security controls to industry frameworks."
+  ]
+    },
+    "University of Milan": {
+      jobTitle: "Cybersecurity Student @",
+      duration: "SEP 2021 - OCT 2025",
+      desc: [
+        "The degree program in Computer Systems and Network Security aims to provide graduates with a solid technological and methodological preparation in computer science, with particular attention to security and privacy.",
+        "Furthermore, it offers basic and methodological knowledge in the fields of mathematical, physical and related sciences, preparing graduates to understand and evaluate scientific and technological progress in the field."
       ]
     },
-    Wattpad: {
-      jobTitle: "Associate Engineer @",
-      duration: "MAY 2020 - APR 2021",
+    Centax: {
+      jobTitle: "Customer service for Sorgenia Green Solution @",
+      duration: "MAY 2024 - OCT 2024",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
-      ]
-    },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
-      desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
-      ]
-    },
-    Centivizer: {
-      jobTitle: "Software Developer @",
-      duration: "SEPT 2019 - APR 2020",
-      desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-      ]
-    },
-    // TDSB: {
-    //   jobTitle: "Software Engineer @",
-    //   duration: "SEPT 2019 - DEC 2020",
-    //   desc: [
-    //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
-    //   ]
-    // },
-    "Orange Gate": {
-      jobTitle: "Software Developer Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        "Management of customer requests related to inverters and photovoltaic panels.",
+        "Diagnosis and resolution of technical malfunctions.",
+        "Timely communication with customers via phone and email.",
+        "Coordination with the technical team for service visits.",
+        "Tracking of support tickets and documentation of activities."
       ]
     }
   };
